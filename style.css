@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html, body {
+    background-color: aquamarine;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* .outer-block {
+    background-color: lemonchiffon;
+    /* display: flexbox; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    /* height: 100%; */
+
+/* } */ 
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: red;
+    width: 35%;
+    height: 22%;
+    margin-top: 1%;
+    /* padding-top: 10%; */
+    /* vertical-align: middle; */
+    background-image: url(src/bg2.jpg);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    color: black;
+    text-align: center;
+    /* background-color: darkorange; */
+    width: 50%;
+    height: 50%;
+}
